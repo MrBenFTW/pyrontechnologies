@@ -7,7 +7,7 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://mrbenftw.github.io/pyrontechnologies/</string>
+		<string>https://mrbenftw.github.io/pyrontechnologies/files/ipa/beta1/PyronProxy.ipa</string>
 		<key>displayImageURL</key>
 		<string>https://mrbenftw.github.io/pyrontechnologies/files/img/Icon-App-57x57@2x.png</string>
 		<key>fullSizeImageURL</key>
