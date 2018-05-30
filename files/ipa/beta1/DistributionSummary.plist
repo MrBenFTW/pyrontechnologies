@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PyronProxy.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>D845E69B7545ED4128D402415156AA4FCF35ED93</string>
+				<key>dateExpires</key>
+				<string>11/05/2019</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>D845E69B7545ED4128D402415156AA4FCF35ED93</string>
+						<key>dateExpires</key>
+						<string>11/05/2019</string>
+						<key>type</key>
+						<string>iOS Development</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>Q758D2PLHU.tech.pyron.proxy.tunnel</string>
+						<key>com.apple.developer.networking.networkextension</key>
+						<array>
+							<string>app-proxy-provider</string>
+							<string>content-filter-provider</string>
+							<string>dns-proxy</string>
+							<string>packet-tunnel-provider</string>
+						</array>
+						<key>com.apple.developer.networking.vpn.api</key>
+						<array>
+							<string>allow-vpn</string>
+						</array>
+						<key>com.apple.developer.team-identifier</key>
+						<string>Q758D2PLHU</string>
+						<key>get-task-allow</key>
+						<true/>
+					</dict>
+					<key>name</key>
+					<string>PyronProxyTunnel.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>277ed913-2b8b-435c-a35a-5ce7b8cdc607</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: tech.pyron.proxy.tunnel</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>Q758D2PLHU</string>
+						<key>name</key>
+						<string>Ben Mitchell</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>Q758D2PLHU.tech.pyron.proxy</string>
+				<key>com.apple.developer.networking.networkextension</key>
+				<array>
+					<string>app-proxy-provider</string>
+					<string>content-filter-provider</string>
+					<string>dns-proxy</string>
+					<string>packet-tunnel-provider</string>
+				</array>
+				<key>com.apple.developer.networking.vpn.api</key>
+				<array>
+					<string>allow-vpn</string>
+				</array>
+				<key>com.apple.developer.team-identifier</key>
+				<string>Q758D2PLHU</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>PyronProxy.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ecec5fe8-7594-4eaa-82d9-57484c5c93d3</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: tech.pyron.proxy</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>Q758D2PLHU</string>
+				<key>name</key>
+				<string>Ben Mitchell</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
