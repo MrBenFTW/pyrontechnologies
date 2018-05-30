@@ -1,4 +1,4 @@
-<?php 
+<?php
     $subject = "This is my UDID from iOS device";
     $body  = "Hello<br /> This is my UDID: {$_GET['UDID']} <br />";
     $body .= "Device product: {$_GET['DEVICE_PRODUCT']} <br />";
